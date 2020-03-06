@@ -43,6 +43,8 @@ DELETE | customers/{id}
    
    ```
    	{
+    "data": [
+        {
             "firstname": "Vitor",
             "lastname": "Zambon",
             "email": "asdf@gmail.com",
@@ -68,6 +70,8 @@ DELETE | customers/{id}
             "user_id": "1",
             "c_id": "56"
         }
+    ]
+}
 ```
    
    3 . POST customers
@@ -129,6 +133,19 @@ DELETE | customers/{id}
             "c_id": "56"
         }
     ```
+   To delete phones during update, just add "del:1" parameter to the phone object:
+   
+       ``` 
+            "phones": [
+                {
+                    "number": "432143214132",
+                    "id": "2"
+		    "del":1
+                }
+	     ]
+		
+    ```
+   
    
   
 
