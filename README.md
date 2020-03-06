@@ -23,8 +23,8 @@ DELETE | customers/{id}
 
    1. POST auth/login
    
-    #Before using anny of other routes, first you have to authenticate yourself as a user. For this you must
-    #post the following for this route:
+   Before using anny of other routes, first you have to authenticate yourself as a user. For this you must
+   post the following for this route:
    
       ``` 
            {
