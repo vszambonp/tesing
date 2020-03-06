@@ -12,6 +12,6 @@ $ php -S localhost:8000
 
 HTTP Method | Route
 ------------ | -------------
-POST | auth/login
+    POST     |   auth/login
 Content in the first column | Content in the second column
 
